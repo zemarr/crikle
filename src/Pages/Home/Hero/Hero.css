@@ -1,0 +1,61 @@
+#hero {
+    height: 100vh;
+}
+
+.herobackground {
+    background-image: url(../../../img/landing-background-01-01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -305px -80px;
+    width: 100%;
+    height: 100%;
+    padding-top: 12rem;
+}
+
+.landing-asset {
+    margin-top: 8rem;
+}
+
+.landing-asset h1 {
+    font-size: 5rem;
+    color: #360058;
+    margin-bottom: 10px;
+}
+
+.welcome-subtext {
+    margin-bottom: 5rem;
+}
+
+.landing-email {
+    margin: 3rem 0 3rem 0;
+}
+
+.landing-email-input {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.landing-email input {
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+.landing-email button {
+    padding: 20px 20px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Alata', sans-serif;
+    background-color: #f9a320;
+    color: #6300a3;
+}
+
+.landing-email button:focus {
+    color: #ffffff;
+    outline: #ffffff00;
+    background-color: #6200a39f;
+}
+
+.landing-email button:hover {
+    color: #ffffff;
+}

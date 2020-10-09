@@ -1,0 +1,54 @@
+.logo {
+    height: 90px;
+    width: 120px;
+    background-image: url(../../img/Crickle-logo-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.logo-mobile {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width: 120px;
+    height: 90px;
+    background-image: url(../../img/Crickle-alt-logo-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .static-logo {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    width: 120px;
+    height: 90px;
+    background-image: url(../../img/Crickle-logo-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+@media screen and (max-width: 768px){
+    .static-logo {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 120px;
+        height: 90px;
+        background-image: url(../../img/Crickle-logo-01.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .logo-mobile {
+        top: 20px;
+    }
+}
+

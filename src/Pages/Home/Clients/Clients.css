@@ -1,0 +1,43 @@
+#clients {
+    padding: 8rem 0;
+}
+
+.clientsList .brand-image {
+    height: 90px;
+    width: 120px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.index1 {
+    background-image: url(../../../img/symbol.svg);
+}
+
+.index2 {
+    background-image: url(../../../img/symbols\ \(1\).svg);
+}
+
+.index3 {
+    background-image: url(../../../img/fiverr.svg);
+}
+
+.index4 {
+    background-image: url(../../../img/symbols.svg);
+}
+
+.index5 {
+    background-image: url(../../../img/bbb.svg);
+}
+
+.index6 {
+    background-image: url(../../../img/money.svg);
+}
+
+@media screen and (max-width: 768px) {
+    #clients {
+        display: none;
+    }
+}

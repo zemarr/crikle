@@ -1,0 +1,26 @@
+.buttn {
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    font-family: 'Alata', sans-serif;
+}
+
+.try {
+    background-color: transparent;
+    font-weight: 400;
+    color: #6300a3;
+}
+
+.register {
+    background-color: #6300a3;
+    /* font-weight: 600; */
+    color: #ffffff;
+}
+
+.try-free {
+    margin: 2rem 0;
+    color: #6300a3;
+    background-color: #f9a320;
+    width: 150px;
+}

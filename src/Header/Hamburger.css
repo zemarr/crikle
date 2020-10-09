@@ -1,0 +1,51 @@
+.hamburger-container {
+    /* position: absolute; */
+    display: none;
+    margin: 0 4rem;
+    z-index: 100;
+}
+
+.hamburger-container div {
+    width: 25px;
+    border: solid 2px black;
+    border-radius: 2px;
+    margin: 0.5rem 0;
+}
+
+.close-hamburger {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.close-hamburger div {
+    width: 25px;
+    border: solid 2px black;
+    margin: .5rem 0;
+}
+
+.closebtn .up {
+    width: 70px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.closebtn .down {
+    width: 70px;
+    position: relative;
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-container {
+        display: unset;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+
+    .close-hamburger {
+        right: 60px;
+        top: 50px;
+    }
+}
