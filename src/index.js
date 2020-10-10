@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import {createBrowserHistory} from 'history';
 import {ScrollProvider} from './Context/ScrollContext'
+
+const history = createBrowserHistory();
 
 ReactDOM.render(
   // <React.StrictMode>
     <ScrollProvider>
-      <App />
+      <App history={history} />
     </ScrollProvider>
   /* </React.StrictMode> */
   ,
