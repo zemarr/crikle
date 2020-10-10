@@ -7,7 +7,7 @@ This is the Official Repository for Crickle&copy;
  #### Submitting Pull Requests:<br/>
  - Make sure you fork the repository before cloning locally<br/>
  - Simply push to the remote repository<br/>
- - Send a Pull Request (PRs will be scrutinized before merging, so make sure your code is properly written)
+ - Send a Pull Request (PRs will be scrutinized before merging)
 
 ## Available Scripts
 
