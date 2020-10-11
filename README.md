@@ -3,7 +3,7 @@ This is the Official Repository for Crickle&copy;
 ## For contributors:<br/>
 - Simply fork the repository initially.<br/>
 - Clone your version of the repository.<br/>
-- In the app directory, make sure npm has been initialized. You can do that by running `npm install` <br/>
+- In the app directory, make sure npm has been initialized. You can do that by running `npm install` in your CLI <br/>
  #### Submitting Pull Requests:<br/>
  - Make sure you fork the repository before cloning locally<br/>
  - Simply push to the remote repository<br/>
