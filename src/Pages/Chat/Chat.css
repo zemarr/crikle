@@ -1,0 +1,21 @@
+/* helper css */
+
+/* .rel-pos-89 {
+    position: relative;
+    top: 89vh;
+} */
+
+#chat {
+    width: 100vw;
+    height: 100vh;
+    background-color: #efebef;
+    overflow: hidden;
+}
+
+
+@media all and (max-width: 768px) {
+    .ab-pos-89 {
+        position: absolute;
+        bottom: 0;
+    }
+}

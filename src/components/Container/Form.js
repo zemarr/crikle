@@ -1,48 +1,48 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
-class Form extends Component {
-    state = {
-        email: '',
-        username: '',
-        password: '',
-    }
+import { UserContext } from '../../Context/UserContext';
 
-    handleEmailInput(event) {
-        this.setState({
-            email: event.target.value,
-        })
-    }
 
-    handleUsernameInput(event) {
-        this.setState({
-            username: event.target.value,
-        })
-    }
 
-    handlePasswordInput(event) {
-        this.setState({
-            password: event.target.value,
-        })
-    }
+const Form = () => {
+    const [email, setEmail] = useContext(UserContext);
 
-    render() {
-        return (
-            <div className="form-input">
-                <form className="email">
-                    <input type="email" name="email" id="email" placeholder="Enter your Email address"></input>
-                    {/* <span>{error}</span> */}
-                </form>
-                <Link to="/">
-                    <button className="proceed buttn">Proceed</button>
-                </Link>
+    // handleUsernameInput(event) {
+    //     this.setState({
+    //         username: event.target.value,
+    //     })
+    // }
 
-                <span>
-                    <Link to="/">Back to Home</Link>
-                </span>
-            </div>
-        )
-    }
+    // handlePasswordInput(event) {
+    //     this.setState({
+    //         password: event.target.value,
+    //     })
+    // }
+
+
+    return (
+        <div className="form-input">
+            <form className="email" onSubmit={(event) => {
+                event.preventDefault();
+                console.log(email);
+            }}>
+                <input type="email" name="email" id="email" placeholder="Enter your Email address" />
+                {/* <span>{error}</span> */}
+            </form>
+            <Link to="/chat">
+                <button className="proceed buttn" onClick={()=> {
+                    console.log(email)
+                }}>Proceed</button>
+            </Link>
+
+            <span>
+                <Link to="/">Back to Home</Link>
+            </span>
+        </div>
+    )
+
 }
 
 export default Form;
