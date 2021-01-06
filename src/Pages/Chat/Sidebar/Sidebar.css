@@ -1,0 +1,148 @@
+/* helper css */
+/* 
+.rel-pos-89 {
+    position: relative;
+    top: 89vh;
+} */
+
+.sidebar {
+    /* position: fixed; */
+    padding: 1rem 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .toolbar {
+    height: 100%;
+} */
+
+.sidebar-brand-box {
+    height: 70px;
+}
+
+.sidebar-logo {
+    left: 40px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background-image: url(../../../img/Crickle-logo-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar-pills ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: #f5f5f5;
+    box-shadow:  0px 0px 5px -15px rgba(0,0,0,0.75),
+                 0px 0px 15px -15px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.sidebar-pills ul li {
+    font-size: 3rem;
+    margin: 5.2rem 0;
+    color: #9989a2;
+}
+
+@media screen and (min-width: 1024px) {
+    .sidebar-pills {
+        height: 650px;
+        width: 100%;
+    }
+
+    .sidebar-pills ul {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sidebar-pills {
+        height: 770px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sidebar-pills ul li {
+        margin: 4.5rem 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #chat .rel-pos-89 {
+        position: relative;
+        top: 89vh;
+    }
+
+    .sidebar {
+        flex-direction: row;
+        height: 15vh;
+        /* width: 100%; */
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .toolbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .sidebar-brand-box {
+        display: none;
+    }
+
+    .sidebar-pills {
+        display: flex;
+        align-items: center;
+        width: 738px;
+    }
+
+    .sidebar-pills ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .sidebar-pills ul li {
+        margin: 2.1rem 1.6rem;
+        font-size: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .sidebar-pills {
+        width: 395px;
+    }
+
+    .sidebar-pills ul li {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sidebar-pills {
+        width: 345px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sidebar-pills {
+        width: 289px;
+    }
+}

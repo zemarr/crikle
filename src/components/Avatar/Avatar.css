@@ -1,0 +1,21 @@
+/* #avatar {
+    height: auto;
+    width: 35px;
+} */
+
+.userAvatar {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/headshot1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 425px) {
+    .userAvatar {
+        width: 30px;
+        height: 30px;
+    }
+}

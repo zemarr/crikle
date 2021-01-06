@@ -24,3 +24,23 @@
     background-color: #f9a320;
     width: 150px;
 }
+
+.go-back-icon {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/back-arrow.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.go-forward-icon {
+    width: 15px;
+    height: 30px;
+    background-image: url(../../img/forward-arrow.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

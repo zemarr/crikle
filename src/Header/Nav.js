@@ -12,7 +12,7 @@ import { NavigationContext } from '../Context/NavigationContext';
 const pageRoutes = [
     {
         title: 'Try for Free',
-        url: '/free-trial',
+        url: '/chat',
         cName: 'try buttn',
         id: 4
     },
@@ -27,7 +27,7 @@ const pageRoutes = [
 const Nav = () => {
     const [navigation] = useContext(NavigationContext);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
-    
+
     return (
         <Fragment>
             <section id='header'>
@@ -44,7 +44,7 @@ const Nav = () => {
                         </ul>
                         <AdminContainer />
                     </div>
-                    <div className={showMobileMenu ? "hamburger-navigation active" : "hamburger-navigation" }>
+                    <div className={showMobileMenu ? "hamburger-navigation active" : "hamburger-navigation"}>
                         <Logo cName='logo-mobile' />
                         <CloseHamburger click={() => setShowMobileMenu(false)} />
                         <ul className="navItems">
